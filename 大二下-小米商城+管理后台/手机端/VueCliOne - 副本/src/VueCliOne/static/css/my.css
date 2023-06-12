@@ -1,0 +1,425 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(51,51,51);
+}
+.top .nav{
+    display: flex;
+    padding-left: 10%;
+}
+.top .nav ul{
+    list-style: none;
+    display: flex;
+}
+.top .nav ul li{
+    margin-left: 1.5%;
+}
+.top .nav ul li span{
+    line-height: 40px;
+    font-size: 12.08px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.top .nav .left{
+    flex: 4;
+    height: 40px;
+}
+.top .nav .right{
+    flex: 2;
+}
+.top a:link {    
+    color: rgb(176,176,176);   
+    text-decoration: none;   
+}   
+.top a:visited {   
+    color: rgb(176,176,176); 
+    text-decoration: none;   
+}   
+.top a:hover {    
+    color: rgb(255,255,255);  
+    text-decoration: none;   
+}
+.top .nav .right ul li{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.top .nav .right ul li span{
+    line-height: 40px;
+    color: rgb(176,176,176);   
+    font-size: 12.08px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.section{
+    width: 100%;
+}
+.TopLNS{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.TopLNS ul{
+    list-style: none;
+    display: flex;
+}
+.TopLNS ul li{
+    margin-left: 2%;
+}
+.TopLNS ul li span{
+    font-size: 16.5px;
+    line-height: 100px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.TopLNS a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.TopLNS a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.TopLNS a:hover {    
+    color: rgb(255,103,0);  
+    text-decoration: none;   
+} 
+.TopLNS input,button{
+    line-height: 100px;
+    height: 50px;
+    border-radius: 1px;
+}
+.TopSH{
+    height: 230px;
+    display: none;
+    width: 100%;
+    border-top: 1px rgb(176,176,176) solid;
+    box-shadow: rgb(176,176,176) 0px 5px 5px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+}
+.TopSH .TopSHPhoneOne{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneTwo{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHTelevision{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+/* .TopSH .TopSHPhoneThree{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneFour{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneFive{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneSix{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneSeven{
+    height: 220px;
+    background-color: white;
+    display: flex;
+} */
+.TopSH ul{
+    list-style: none;
+    display: flex;
+    padding-top: 2%;
+}
+.TopSH ul li{
+    list-style: none;
+    text-align: center;
+}
+.TopSH ul li img{
+    width: 90%;
+}
+.TopSH a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.TopSH a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.TopSH a:hover {    
+    color: rgb(255,103,0);  
+    text-decoration: none;   
+} 
+.TopSH ul li ol span {
+    font-size: 13px;
+}
+.TopSH ul li ol:nth-child(2) {
+    margin-top: 7%;
+}
+.TopSH ul li ol:nth-child(3) span {
+    color: rgb(255,103,0);  
+}
+.TopSH img{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.TopSH img:hover{
+    transform: scale(1.1);
+}
+
+.personal{
+    width: 100%;
+    padding-bottom: 3%;
+    background-color: rgb(245,245,245);
+}
+.personal .wenziTop span:nth-child(1){
+    font-size: 13px;
+    color: rgb(117,117,117);
+}
+.personal .wenziTop span:nth-child(1):hover{
+    color: rgb(255,103,0); 
+}
+.personal .wenziTop span:nth-child(2){
+    font-size: 13px;
+    color: rgb(117,117,117);
+}
+.personal .neirong{
+    margin-top: 1%;
+    display: flex;
+    background-color: rgb(245,245,245);
+}
+.personal .neirong>.left{
+    flex: 1;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    background-color: white;
+}
+.personal .neirong>.right{
+    flex: 4;
+    margin-left: 1%;
+    padding-top: 5%;
+    padding-left: 2%;
+    background-color: white;
+}
+.personal .neirong>.left ul{
+    list-style: none;
+    margin-top: 8%;
+}
+.personal .neirong>.left ul li{
+    margin-top: 4%;
+    letter-spacing: 1px;
+}
+.personal .neirong>.left h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin-top: 10%;
+}
+.personal a:link {    
+    color: rgb(130,128,121);   
+    text-decoration: none;   
+}   
+.personal a:visited {   
+    color: rgb(130,128,121);  
+    text-decoration: none;   
+}   
+.personal a:hover {    
+    color: rgb(255,103,0);  
+    text-decoration: none;   
+} 
+.personal .neirong>.left ul:nth-child(4)>li:nth-child(1) a{
+    color: rgb(255,103,0);
+}
+.personal .neirong>.right .xinxiLeft{
+    display: flex;
+}
+.personal .neirong>.right .xinxiLeft div:nth-child(2){
+    margin-left: 1%;
+}
+.personal .neirong>.right .xinxiLeft img{
+    border-radius: 45px;
+    border: 1px rgb(245,245,245) solid;
+}
+.personal .neirong>.right .xinxiLeft p{
+    color: rgb(255,103,0);
+    font-size: 12px;
+}
+.personal .neirong>.right ul{
+    list-style: none;
+}
+.personal .neirong>.right ul li{
+    color: rgb(130,128,121);
+    letter-spacing: 1px;
+    margin-top: 2%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.personal .neirong>.right ul li:nth-child(1) span{
+    color: rgb(131,196,78);
+}
+.personal .neirong>.right .xinxiBottom>div{
+    display: flex;
+    margin-top: 5%;
+}
+.personal .neirong>.right .xinxiBottom h4{
+    color: rgb(130,128,121);
+}
+.personal .neirong>.right .xinxiBottom span{
+    color: red;
+}
+.personal .neirong>.right .xinxiBottom>div>div:nth-child(2){
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1366px) {
+    .top .nav ul li:nth-child(3){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 6;
+    }
+    .top .nav .right{
+        flex: 4;
+    }
+}
+@media screen and (max-width : 1276px) {
+    .top .nav ul li:nth-child(7){
+        display: none;
+    }
+}
+@media screen and (max-width : 1113px) {
+    .top .nav ul li:nth-child(6){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 7;
+    }
+    .top .nav .right{
+        flex: 5;
+    }
+}
+@media screen and (max-width : 1069px) {
+    .top .nav ul li:nth-child(5){
+        display: none;
+    }
+    .top .nav ul li:nth-child(9){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 8;
+    }
+    .top .nav .right{
+        flex: 6;
+    }
+}
+@media screen and (max-width : 1039px) {
+    .top .nav ul li:nth-child(11){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 7;
+    }
+}
+@media screen and (max-width : 1019px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 8;
+    }
+}
+@media screen and (max-width : 948px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav ul li:nth-child(10){
+        display: none;
+    }
+    .top .nav .right{
+        flex: 9;
+    }
+}
+@media screen and (max-width : 891px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav ul li:nth-child(8){
+        display: none;
+    }
+    .top .nav .right{
+        flex: 10;
+    }
+}
+@media screen and (max-width : 891px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 11;
+    }
+}
+@media screen and (max-width : 809px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 12;
+    }
+}
+@media screen and (max-width : 778px) {
+    .top .nav ul li:nth-child(13){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 13;
+    }
+}
+@media screen and (max-width : 758px) {
+    .top .nav .left{
+        display: none;
+    }
+    .top .nav .right ul li:nth-child(4) {
+        /* padding-right: 10%; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

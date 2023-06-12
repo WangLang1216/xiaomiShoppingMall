@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Note 10 Pro",
+        "Price":1599,
+        "introduce":"天机1100年度旗舰芯，VC液冷",
+        "imgUrl":"../../static/images/Mobile2.png"
+    },
+    {
+        "name":"Note 10 5G",
+        "Price":1099,
+        "introduce":"5G小金刚，旗舰长续航",
+        "imgUrl":"../../static/images/Mobile3.png"
+    },
+    {
+        "name":"小米MIX FOLD",
+        "Price":9999,
+        "introduce":"折叠大屏 | 自研芯片",
+        "imgUrl":"../../static/images/Mobile4.png"
+    },
+    {
+        "name":"小米11 Ultra",
+        "Price":5999,
+        "introduce":"1/2.12″GN2 | 2K思微曲面屏",
+        "imgUrl":"../../static/images/Mobile5.png"
+    },
+    {
+        "name":"小米11 Pro",
+        "Price":4499,
+        "introduce":"1/2.12″GN2 | 骁龙888",
+        "imgUrl":"../../static/images/Mobile6.png"
+    },
+    {
+        "name":"小米11 青春版",
+        "Price":2299,
+        "introduce":"小米11 青春版 轻薄",
+        "imgUrl":"../../static/images/Mobile7.png"
+    },
+    {
+        "name":"K40 游戏增强版",
+        "Price":1999,
+        "introduce":"轻薄电竞设计",
+        "imgUrl":"../../static/images/Mobile8.png"
+    },
+    {
+        "name":"黑鲨4 Pro",
+        "Price":3999,
+        "introduce":"极致游戏玩家",
+        "imgUrl":"../../static/images/Mobile9.png"
+    }
+]

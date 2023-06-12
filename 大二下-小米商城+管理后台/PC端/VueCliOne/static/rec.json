@@ -1,0 +1,62 @@
+[
+    {
+        "imgName": "/static/images/ShopCar/1.jpg",
+        "goodsName": "小米Ultra",
+        "price": "5999元",
+        "assets": "5.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/2.jpg",
+        "goodsName": "RedmiK40Pro",
+        "price": "4999元",
+        "assets": "15.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/3.jpg",
+        "goodsName": "TypeC数据线",
+        "price": "19元",
+        "assets": "45.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/4.jpg",
+        "goodsName": "K30至尊纪念版",
+        "price": "1999元",
+        "assets": "52.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/5.jpg",
+        "goodsName": "米家指甲刀",
+        "price": "2999元",
+        "assets": "51.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/6.jpg",
+        "goodsName": "小米真无线耳机",
+        "price": "199元",
+        "assets": "35.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/7.jpg",
+        "goodsName": "小米11",
+        "price": "6999元",
+        "assets": "57.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/8.jpg",
+        "goodsName": "小米无线蓝牙耳机",
+        "price": "299元",
+        "assets": "5.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/9.jpg",
+        "goodsName": "米家魔方转换器",
+        "price": "99元",
+        "assets": "45.5万人好评"
+    },
+    {
+        "imgName": "/static/images/ShopCar/10.jpg",
+        "goodsName": "移动电源10000Ah",
+        "price": "199元",
+        "assets": "65.5万人好评"
+    }
+]

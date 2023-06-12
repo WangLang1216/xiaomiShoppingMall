@@ -1,0 +1,1132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(51,51,51);
+}
+.top .nav{
+    display: flex;
+    padding-left: 10%;
+}
+.top .nav ul{
+    list-style: none;
+    display: flex;
+}
+.top .nav ul li{
+    margin-left: 1.5%;
+}
+.top .nav ul li span{
+    line-height: 40px;
+    font-size: 12.08px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.top .nav .left{
+    flex: 4;
+    height: 40px;
+}
+.top .nav .right{
+    flex: 2;
+}
+.top a:link {    
+    color: rgb(176,176,176);   
+    text-decoration: none;   
+}   
+.top a:visited {   
+    color: rgb(176,176,176); 
+    text-decoration: none;   
+}   
+.top a:hover {    
+    color: rgb(255,255,255);  
+    text-decoration: none;   
+}
+.top .nav .right ul li{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.top .nav .right ul li span{
+    line-height: 40px;
+    color: rgb(176,176,176);   
+    font-size: 12.08px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.section{
+    width: 100%;
+}
+.TopLNS{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.TopLNS ul{
+    list-style: none;
+    display: flex;
+}
+.TopLNS ul li{
+    margin-left: 2%;
+}
+.TopLNS ul li span{
+    font-size: 16.5px;
+    line-height: 100px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.TopLNS a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.TopLNS a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.TopLNS a:hover {    
+    color: rgb(255,103,0);  
+    text-decoration: none;   
+} 
+.TopLNS input,button{
+    line-height: 100px;
+    height: 50px;
+    border-radius: 1px;
+}
+.TopSH{
+    height: 230px;
+    display: none;
+    width: 100%;
+    border-top: 1px rgb(176,176,176) solid;
+    box-shadow: rgb(176,176,176) 0px 5px 5px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+}
+.TopSH .TopSHPhoneOne{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneTwo{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHTelevision{
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHTelevision span{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* .TopSH .TopSHPhoneThree{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneFour{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneFive{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneSix{
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+.TopSH .TopSHPhoneSeven{
+    height: 220px;
+    background-color: white;
+    display: flex;
+} */
+.TopSH ul{
+    list-style: none;
+    display: flex;
+    padding-top: 2%;
+}
+.TopSH ul li{
+    list-style: none;
+    text-align: center;
+}
+.TopSH ul li img{
+    width: 90%;
+}
+.TopSH a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.TopSH a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.TopSH a:hover {    
+    color: rgb(255,103,0);  
+    text-decoration: none;   
+} 
+.TopSH ul li ol span {
+    font-size: 13px;
+}
+.TopSH ul li ol:nth-child(2) {
+    margin-top: 7%;
+}
+.TopSH ul li ol:nth-child(3) span {
+    color: rgb(255,103,0);  
+}
+.TopSH img{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.TopSH img:hover{
+    transform: scale(1.1);
+}
+
+.Carousel{
+    width: 100%;
+    /* height: 460px; */
+    z-index: 998;
+}
+
+
+
+
+@font-face {font-family: 'iconfont';
+    src: url('/static/fonts/iconfont.eot'); 
+    src: url('/static/fonts/iconfont.eot') format('embedded-opentype'),
+    url('/static/fonts/iconfont.woff') format('woff'),
+    url('/static/fonts/iconfont.ttf') format('truetype'),
+    url('/static/fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.Carousel .contenta{
+	text-decoration: none;
+}
+
+.Carousel .content a:link,a:visited{
+	color:white;
+    text-decoration: none;
+}
+.Carousel .content a:hover{
+	color:white;
+    text-decoration: none;
+}
+
+body{
+	font-family:"微软雅黑";
+	color: #14191e;
+}
+
+.main{
+	width:100%;
+	height:460px;
+	margin:30px auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.banner{
+	width:1200px;
+	height:460px;
+	overflow:hidden;
+	position:relative;
+}
+
+.banner-slide{
+	width:1200px;
+	height:460px;
+	background-repeat:no-repeat;
+	float:left;
+	display:none;
+}
+
+.slide-active{
+	display:block;
+}
+
+.slide1{
+	background-image:url('/static/images/Carousel1.png');
+    background-size:cover;
+    -moz-background-size:cover; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+}
+
+.slide2{
+	background-image:url('/static/images/Carousel2.png');
+    background-size:cover;
+    -moz-background-size:cover; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+}
+
+.slide3{
+	background-image:url('/static/images/Carousel3.png');
+    background-size:cover;
+    -moz-background-size:cover; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+}
+
+.slide4{
+	background-image:url('/static/images/Carousel4.png');
+    background-size:cover;
+    -moz-background-size:cover; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+}
+
+.button{
+    position: absolute;
+    transform:rotate(180deg);
+    top: 50%;
+    left: 244px;
+    height: 80px;
+    width: 40px;
+    margin-top:-40px;
+    background:url('/static/images/arrow.png') center center no-repeat;
+}
+
+.next{
+	transform:rotate(0deg);
+	left:auto;
+	right:0;
+}
+
+.button:hover{
+	background-color:#333;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+.dots {
+	position: absolute;
+	bottom: 24px;
+	right: 0;
+	text-align: right;
+	padding-right: 24px;
+	line-height: 12px;
+}
+
+.dots span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-left: 8px;
+	background-color: rgba(7, 17, 27, 0.4);
+	cursor: pointer;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+}
+
+.dots span.active{
+	box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+	background-color: #ffffff;
+}
+
+/* menu-box */
+.menu-box {
+	background:rgba(134,129,127, 0.7);
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 244px;
+	height: 460px;
+	z-index: 1;
+}
+
+.menu-content{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 244px;
+	height: 460px;
+	z-index: 2;
+	padding-top: 6px;
+}
+
+.menu-item{
+	height: 45px;
+	line-height: 45px;
+	font-size: 10px;
+	cursor: pointer;
+	padding: 0 24px;
+	position: relative;
+}
+
+.menu-item a{
+	display: block;
+	color: #fff;
+	padding: 0 8px;
+	height: 63px;
+	font-size:16px;
+}
+
+.menu-item:last-child a{
+	border-bottom:none;
+}
+
+.menu-item i{
+	position: absolute;
+	right: 32px;
+	top: 24px;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+    top: 2px;
+    font-style:normal;
+    font-weight:normal;
+    font-family:"iconfont";
+}
+
+.sub-menu {
+	border:1px solid #d9dde1;
+	background:#fff;
+	position: absolute;
+	left: 244px;
+	top: 0px;
+	/* width: 730px; */
+	height: 460px;
+	z-index: 581;
+	box-shadow: rgb(176,176,176) 0px 5px 5px;
+}
+
+.hide{
+	display:none;
+}
+
+.inner-box{
+	width:100%;
+	height:100%;
+	background:url('/static/imgages/fe.png') no-repeat;
+	display:none;
+	box-shadow: rgb(176,176,176) 0px 5px 5px;
+    z-index: 999;
+}
+
+.sub-inner-box{
+	/* width: 652px; */
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.title{
+	color: #f01414;
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 28px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.sub-row{
+	margin-bottom:25px;
+}
+
+.bold{
+	font-weight:700;
+}
+
+.mr10{
+	margin-right:10px;
+}
+
+.ml10{
+	margin-left:10px;
+}
+
+
+
+.Carousel .lunbotubottpm{
+    width: 100%;
+    margin-top: -1%;
+    display: flex;
+}
+.lunbotubottpm .left{
+    width: 48%;
+    background-color: rgb(95,87,80);
+    padding: 0.5% 0% 0.5% 0%;
+}
+.lunbotubottpm .left p{
+    font-size: 6px;
+    margin-top: 15%;
+    color: rgb(180,177,173);
+    text-align: center;
+}
+.lunbotubottpm .left div{
+    color: rgb(180,177,173);
+    border-right: 1px rgb(180,177,173) solid;
+}
+.lunbotubottpm .left .bott{
+    border-bottom: 1px rgb(180,177,173) solid;
+}
+.lunbotubottpm .left :not(.bott){
+    padding-top: 3%;
+}
+.lunbotubottpm .left img{
+    width: 50%;
+    margin-left: 25%;
+}
+.lunbotubottpm .right div{
+    /*控制图片最终大小，防止放大后图片大小溢出*/
+    width : 33.33%;
+    overflow : hidden;
+}
+.lunbotubottpm .right div img{
+    margin-left: 5.5%;
+}
+.lunbotubottpm .right div img {
+    transition : -webkit-transform 1s;/*延迟效果*/
+}
+
+.lunbotubottpm .right div img:hover {
+    transform: scale(1.1,1.3);/*放大的倍数*/
+}
+
+
+
+.seckill{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(245,245,245);
+}
+.seckill>div{
+    display: flex;
+    padding-top: 1%;
+    background-color: rgb(245,245,245);
+}
+.seckill .miaoshaTop{
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+    margin-left: 23%;
+}
+.seckill .zuoyou{
+    display: flex;
+    margin-top: 1%;
+}
+.seckill .zuoyou div{
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    border: 1px rgb(111,109,109) solid;
+    background-color: rgb(238, 230, 230);
+}
+.seckill .zuoyou a:nth-child(1){
+    margin-left: 67%;
+}
+.seckill .zuoyou a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.seckill .zuoyou a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.seckill .zuoyou a:hover {    
+    color: rgb(255,103,0); 
+    text-decoration: none;   
+} 
+.seckill .left{
+    width: 21.6%;
+    height: 325px;
+    background-color: rgb(241,237,237);
+    border-top: 1px red solid;
+    text-align: center;
+    padding-top: 5%;
+}
+.seckill .left .timeTo,.timeTo2{
+    font-size: 20px;
+    color: red;
+    padding-top: 50%;
+}
+.seckill .left img{
+    margin-top: 12%;
+    margin-left: 40%;
+}
+.seckill .left .timeOut{
+    font-size: 16px;
+    color: rgb(111,109,109);
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+.seckill .time {
+    font-size: 24px;
+}
+.seckill .time span {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-color: #605751;
+    line-height: 46px;
+    color: #fff;
+}
+.seckill #noStart{
+    font-size: 15px;
+    color: rgb(111,109,109);
+    margin-top: 5%;
+}
+.seckill .conten2{
+    font-size: 13px;
+    margin-top: 3%;
+    color: rgb(111,109,109);
+}
+.timeOue{
+    display: flex;
+}
+.timeOue div{
+    background-color: rgb(96,87,81);
+    width: 45px;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.timeOue div span{
+    font-size: 20px;
+    color: white;
+    line-height: 45px;
+    text-align: center;
+}
+.timeOue p{
+    color: rgb(96,87,81);
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 5%;
+    margin-right: -4%;
+}
+.seckill .right{
+    width: 19.5%;
+}
+.seckill .right div{
+    height: 100%;
+    width: 210px;
+    background-color: white;
+    margin-left: 6%;
+}
+.seckill .right img{
+   width: 95%;
+   margin-top: 15%;
+}
+.seckill .right h3{
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.seckill .right h5{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111,109,109);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.seckill .right .zuiho{
+    text-align: center;
+}
+.seckill a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.seckill a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.seckill a:hover {    
+    color: black; 
+    text-decoration: none;   
+} 
+.seckill .right .zuiho .dazhe{
+    font-size: 14px;
+    color: rgb(255,103,0);  
+}
+.seckill .right .zuiho .weidazhe{
+    font-size: 14px;
+    color: rgb(111,109,109); 
+    text-decoration: line-through;
+}
+.seckill .right>div:nth-child(1){
+    border-top: 1px rgb(255, 103, 0) solid;
+}
+
+.seckill .right2{
+    width: 19.5%;
+    display: none;
+}
+.seckill .right2 div{
+    height: 100%;
+    width: 210px;
+    background-color: white;
+    margin-left: 6%;
+}
+.seckill .right2 img{
+   width: 95%;
+   margin-top: 15%;
+}
+.seckill .right2 h3{
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.seckill .right2 h5{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111,109,109);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.seckill .right2 .zuiho{
+    text-align: center;
+}
+.seckill .right2 .zuiho .dazhe{
+    font-size: 14px;
+    color: rgb(255,103,0);  
+}
+.seckill .right2 .zuiho .weidazhe{
+    font-size: 14px;
+    color: rgb(111,109,109); 
+    text-decoration: line-through;
+}
+.seckill .right2>div:nth-child(1){
+    border-top: 1px rgb(255, 103, 0) solid;
+}
+
+.fengexian{
+    background-color: rgb(245,245,245);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Mobile{
+    background-color: rgb(245,245,245);
+}
+.Mobile .MobileP1{
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+    margin-left: 23%;
+}
+.Mobile .MobileP2{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+    margin-left: 65%;
+}
+.Mobile a:link {    
+    color: rgb(51,51,51);
+    text-decoration: none;   
+}   
+.Mobile a:visited {  
+    color: rgb(51,51,51); 
+    text-decoration: none;   
+}   
+.Mobile a:hover {    
+    color: rgb(255,103,0); 
+    text-decoration: none;   
+} 
+.Mobile .Mobiledis{
+    display: flex;
+}
+.Mobile .left {    
+    width: 21.5%;
+    margin-top: 2%; 
+} 
+.Mobile .left img{    
+    margin-left: -2%;
+}
+.Mobile .left img:hover{  
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+.Mobile .right{
+    width: 80.51%;
+}
+.Mobile .right .rightdange{
+    background-color: white;
+    width: 24%;
+    margin-top: 2.7%;
+    margin-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.Mobile .right .rightdange:hover{
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+.Mobile .right h3{
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.Mobile .right h5{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111,109,109);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+} 
+.Mobile .right .dazhe{
+    font-size: 14px;
+    color: rgb(255,103,0);  
+    text-align: center;
+}
+
+.fengexian2{
+    background-color: rgb(245,245,245);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 1.3%;
+}
+
+.household{
+    background-color: rgb(245,245,245);
+    width: 100%;
+}
+.household .householdP1{
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+    margin-left: 23%;
+}
+.household .householdP2{
+    font-size: 16px;
+    color: rgb(255,103,0); 
+    font-weight: 300;
+    margin-left: 61%;
+    border-bottom: 2px rgb(255, 103, 0) solid;
+}
+.household .householdP3{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+}
+.household .householddis{
+    display: flex;
+}
+.household .householddis .left{
+    width: 22.5%;
+    margin-top: 2%;
+}
+.household .householddis .left img{
+    margin-right: 10%;
+}
+.household .householddis .right{
+    width: 79.1%;
+    margin-top: 0.6%;
+}
+.household .householddis .right div{
+    background-color: white;
+    width: 23.5%;
+    height: 48.5%;
+    margin-top: 2%;
+    margin-left: 1%;
+    text-align: center;
+}
+.household .householddis .right img{
+   width: 80%;
+   margin-left: 11%;
+}
+.household .householddis .right a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.household .householddis .right a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.household .householddis .right a:hover {    
+    color: rgb(255, 103, 0); 
+    text-decoration: none;   
+} 
+.household .householddis .right h3{
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.household .householddis .right h5{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111,109,109);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.household .householddis .right .zuiho{
+    text-align: center;
+}
+.household .householddis .right .zuiho .dazhe{
+    font-size: 14px;
+    color: rgb(255,103,0);  
+}
+.household .householddis .right .zuiho .weidazhe{
+    font-size: 14px;
+    color: rgb(111,109,109); 
+    text-decoration: line-through;
+}
+.household .householddis .left img:hover{
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+.household .householddis .right>div:hover{
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+
+.fengexian3{
+    background-color: rgb(245,245,245);
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-right: 1.3%;
+}
+
+.intelligence{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    padding-bottom: 5%;
+}
+.intelligence .householdP1{
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+    margin-left: 23%;
+}
+.intelligence .householdP2{
+    font-size: 16px;
+    color: rgb(255,103,0); 
+    font-weight: 300;
+    margin-left: 61%;
+    border-bottom: 2px rgb(255, 103, 0) solid;
+}
+.intelligence .householdP3{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    font-weight: 300;
+}
+.intelligence .householddis{
+    display: flex;
+}
+.intelligence .householddis .left{
+    width: 22.5%;
+    margin-top: 2%;
+}
+.intelligence .householddis .left img{
+    margin-right: 10%;
+}
+.intelligence .householddis .right{
+    width: 79.1%;
+    margin-top: 0.6%;
+}
+.intelligence .householddis .right div{
+    background-color: white;
+    width: 23.5%;
+    height: 48.5%;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding-top: 2%;
+    text-align: center;
+}
+.intelligence .householddis .right img{
+   width: 80%;
+   margin-left: 11%;
+}
+.intelligence .householddis .right a:link {    
+    color: black;   
+    text-decoration: none;   
+}   
+.intelligence .householddis .right a:visited {   
+    color: black;   
+    text-decoration: none;   
+}   
+.intelligence .householddis .right a:hover {    
+    color: rgb(255, 103, 0); 
+    text-decoration: none;   
+} 
+.intelligence .householddis .right h3{
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.intelligence .householddis .right h5{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(111,109,109);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.intelligence .householddis .right .zuiho{
+    text-align: center;
+}
+.intelligence .householddis .right .zuiho .dazhe{
+    font-size: 14px;
+    color: rgb(255,103,0);  
+}
+.intelligence .householddis .right .zuiho .weidazhe{
+    font-size: 14px;
+    color: rgb(111,109,109); 
+    text-decoration: line-through;
+}
+.intelligence .householddis .left img:hover{
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+.intelligence .householddis .right>div:hover{
+    position: relative;
+    bottom: 3px;
+    transition: 0.3s;
+    box-shadow: rgb(226,226,226) 0px 0px 10px 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width : 1366px) {
+    .top .nav ul li:nth-child(3){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 6;
+    }
+    .top .nav .right{
+        flex: 4;
+    }
+}
+@media screen and (max-width : 1276px) {
+    .top .nav ul li:nth-child(7){
+        display: none;
+    }
+}
+@media screen and (max-width : 1113px) {
+    .top .nav ul li:nth-child(6){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 7;
+    }
+    .top .nav .right{
+        flex: 5;
+    }
+}
+@media screen and (max-width : 1069px) {
+    .top .nav ul li:nth-child(5){
+        display: none;
+    }
+    .top .nav ul li:nth-child(9){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 8;
+    }
+    .top .nav .right{
+        flex: 6;
+    }
+}
+@media screen and (max-width : 1039px) {
+    .top .nav ul li:nth-child(11){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 7;
+    }
+}
+@media screen and (max-width : 1019px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 8;
+    }
+}
+@media screen and (max-width : 948px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav ul li:nth-child(10){
+        display: none;
+    }
+    .top .nav .right{
+        flex: 9;
+    }
+}
+@media screen and (max-width : 891px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav ul li:nth-child(8){
+        display: none;
+    }
+    .top .nav .right{
+        flex: 10;
+    }
+}
+@media screen and (max-width : 891px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 11;
+    }
+}
+@media screen and (max-width : 809px) {
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 12;
+    }
+}
+@media screen and (max-width : 778px) {
+    .top .nav ul li:nth-child(13){
+        display: none;
+    }
+    .top .nav .left{
+        flex: 9;
+    }
+    .top .nav .right{
+        flex: 13;
+    }
+}
+@media screen and (max-width : 758px) {
+    .top .nav .left{
+        display: none;
+    }
+    .top .nav .right ul li:nth-child(4) {
+        /* padding-right: 10%; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

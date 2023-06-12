@@ -1,0 +1,32 @@
+[
+    {
+        "name":"小米MIX FOLD",
+        "Price":9999,
+        "imgUrl":"/static/images/TopSHPhone1.png"
+    },
+    {
+        "name":"小米11 Ultra",
+        "Price":5999,
+        "imgUrl":"/static/images/TopSHPhone2.png"
+    },
+    {
+        "name":"小米11 Pro",
+        "Price":4499,
+        "imgUrl":"/static/images/TopSHPhone3.png"
+    },
+    {
+        "name":"小米11 青春版",
+        "Price":2299,
+        "imgUrl":"/static/images/TopSHPhone4.png"
+    },
+    {
+        "name":"小米10S",
+        "Price":2999,
+        "imgUrl":"/static/images/TopSHPhone5.png"
+    },
+    {
+        "name":"小米11",
+        "Price":3799,
+        "imgUrl":"/../static/images/TopSHPhone6.png"
+    }
+]

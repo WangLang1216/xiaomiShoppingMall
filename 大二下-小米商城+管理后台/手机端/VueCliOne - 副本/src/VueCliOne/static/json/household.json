@@ -1,0 +1,58 @@
+[
+    {
+        "name":"小米全面屏电视65英寸 E65X",
+        "Price":2899,
+        "introduce":"全面屏设计",
+        "Price2":3299,
+        "imgUrl":"../../static/images/household3.png"
+    },
+    {
+        "name":"全面屏电视E43K",
+        "Price":1349,
+        "Price2":1599,
+        "introduce":"全面屏设计，海量内容",
+        "imgUrl":"../../static/images/household4.png"
+    },
+    {
+        "name":"小米电视4S 75英寸",
+        "Price":4999,
+        "Price2":5999,
+        "introduce":"4K HDR 人工智能语言",
+        "imgUrl":"../../static/images/household11.png"
+    },
+    {
+        "name":"小米电视4A 70英寸",
+        "Price":3399,
+        "Price2":3999,
+        "introduce":"大屏更享受",
+        "imgUrl":"../../static/images/household5.png"
+    },
+    {
+        "name":"米家互联网对开门冰箱 540L",
+        "Price":2699,
+        "Price2":3699,
+        "introduce":"重磅新品福利特惠",
+        "imgUrl":"../../static/images/household6.png"
+    },
+    {
+        "name":"Redmi全自动波轮洗衣机1A 8Kg",
+        "Price":799,
+        "Price2":899,
+        "introduce":"一键操作，父母都爱用",
+        "imgUrl":"../../static/images/household7.png"
+    },
+    {
+        "name":"米家互联网烟灶套餐 (天燃气)",
+        "Price":1899,
+        "Price2":2298,
+        "introduce":"点火排烟，风随火动",
+        "imgUrl":"../../static/images/household8.png"
+    },
+    {
+        "name":"米家电烤箱",
+        "Price":259,
+        "Price2":299,
+        "introduce":"全能烘焙体验",
+        "imgUrl":"../../static/images/household10.png"
+    }
+]

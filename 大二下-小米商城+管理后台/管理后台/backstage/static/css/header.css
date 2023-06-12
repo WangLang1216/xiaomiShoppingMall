@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(154,208,185);
+    border-bottom: 3px rgb(123,166,148) solid;
+    z-index: 999;
+}
+.top{
+    display: flex;
+}
+.top ul{
+    list-style: none;
+    display: flex;
+}
+.top .left{
+    flex: 2;
+}
+.top .right{
+    flex: 1;
+}
+.top .left ul li img{
+    width: 140%;
+    margin-top: 55%;
+}
+.top .left ul li h3{
+    line-height: 50px;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+.top .left ul li{
+    margin-left: 3%;
+}
+.top .left ul li span{
+    font-size: 13px;
+    color: white;
+    line-height: 50px;
+}
+.top .right ul{
+    margin-left: 25%;
+}
+.top .right ul li{
+    margin-left: 7%;
+}
+.top .right ul li span{
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+}
+.top a:link {      
+    text-decoration: none;   
+}   
+.top a:visited {     
+    text-decoration: none;   
+}   
+.top a:hover {     
+    text-decoration: none;   
+} 

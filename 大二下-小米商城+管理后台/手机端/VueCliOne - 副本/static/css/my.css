@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    height: 85px;
+    background-image: url("/static/images/myTop.png");
+	-moz-background-size:100% 100%;
+	background-size:100% 100%; ;
+    background-color: rgb(243,125,15);
+}
+.top .weidenglu{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.top .weidenglu img{
+    width: 14%;
+    border: 3px rgb(248,177,111) solid;
+    border-radius: 45px;
+}
+.top .weidenglu h6{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.central{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+.central .dindan{
+    display: flex;
+    height: 40px;
+    border-bottom: 2px rgb(229,229,229) solid;
+}
+.central .dindan h5{
+    flex: 1;
+    margin-top: 2%;
+}
+.central .dindan h5:nth-child(1){
+    color: black;
+    font-weight: 800;
+    margin-left: 3%;
+    line-height: 20px;
+}
+.central .dindan h5:nth-child(2){
+    color: black;
+    font-weight: 800;
+    font-size: 13px;
+    margin-right: 3%;
+    line-height: 20px;
+    text-align: right;
+}
+.central .dindan2{
+    display: flex;
+    height: 100px;
+    padding-top: 5%;
+    border-bottom: 10px rgb(245,245,245) solid;
+    text-align: center;
+}
+.central .dindan2 div{
+    flex: 1;
+    text-align: center;
+}
+.central .dindan2 div img{
+    width: 23%;
+}
+.central .dindan2 div h5{
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 3%;
+}
+.ash{
+    padding-top: 8%;
+}
+.ssh{
+    padding-top: 2%;
+}
+.section{
+    width: 100%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    border-bottom: 10px rgb(245,245,245) solid;
+}
+.section>div{
+    display: flex;
+}
+.section>div>div:nth-child(1){
+    flex: 1;
+    height: 40px;
+    margin-top: 1%;
+}
+.section>div>div img{
+    width: 80%;
+    line-height: 40px;
+}
+.section>div>div:nth-child(2){
+    flex: 9;
+    height: 40px;
+    margin-top: 1%;
+}
+.section span{
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 5%;
+    line-height: 25px;
+}
+.section span:nth-child(1){
+    text-align: left;
+}
+.section span:nth-child(2){
+    text-align: right;
+    margin-left: 70%;
+    font-size: 20px;
+    color: rgb(229,229,229);
+}
+.section .fengoxian{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(245,245,245);
+}

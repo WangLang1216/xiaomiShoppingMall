@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "K40游戏增强版",
+        "imgURL":"/static/images/redmik1.png"
+    },
+    {
+        "name" : "K40 Pro系列",
+        "imgURL":"/static/images/redmik2.png"
+    },
+    {
+        "name" : "Redmi K30 5G ",
+        "imgURL":"/static/images/redmik3.png"
+    },
+    {
+        "name" : "Redmi K30 4G",
+        "imgURL":"/static/images/redmik4.png"
+    },
+    {
+        "name" : "K30 Pro 变焦版",
+        "imgURL":"/static/images/redmik5.png"
+    },
+    {
+        "name" : "K30 Pro",
+        "imgURL":"/static/images/redmik6.png"
+    },
+    {
+        "name" : "K30 至尊版",
+        "imgURL":"/static/images/redmik7.png"
+    },
+    {
+        "name" : "K30 Pro",
+        "imgURL":"/static/images/redmik8.png"
+    },
+    {
+        "name" : "K30S 至尊版",
+        "imgURL":"/static/images/redmik9.png"
+    }
+]

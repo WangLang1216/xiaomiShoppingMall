@@ -1,0 +1,30 @@
+[
+    {
+        "name":"小米净水器 白色",
+        "Price":49.9,
+        "Price2":79,
+        "introduce":"让生命更健康",
+        "imgUrl":"../../static/images/miaosha1.png"
+    },
+    {
+        "name":"小米抽纸 一箱",
+        "Price":27.9,
+        "Price2":45,
+        "introduce":"原生竹浆，健康竹色",
+        "imgUrl":"../../static/images/miaosha2.png"
+    },
+    {
+        "name":"小米毛巾 白色",
+        "Price":9.9,
+        "Price2":29.9,
+        "introduce":"呵护每一个时刻",
+        "imgUrl":"../../static/images/miaosha3.png"
+    },
+    {
+        "name":"小米背包 黑色",
+        "Price":59.9,
+        "Price2":89,
+        "introduce":"极客来自不听",
+        "imgUrl":"../../static/images/miaosha4.png"
+    }
+]

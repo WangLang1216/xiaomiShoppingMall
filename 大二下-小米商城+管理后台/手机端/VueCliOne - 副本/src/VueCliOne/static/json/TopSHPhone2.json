@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Note 10 Pro",
+        "Price":1599,
+        "imgUrl":"../../static/images/TopSHPhone11.png"
+    },
+    {
+        "name":"Noet 10 5G",
+        "Price":1099,
+        "imgUrl":"../../static/images/TopSHPhone12.png"
+    },
+    {
+        "name":"K40 游戏增强版",
+        "Price":1999,
+        "imgUrl":"../../static/images/TopSHPhone13.png"
+    },
+    {
+        "name":"K40 Pro 系列",
+        "Price":2499,
+        "imgUrl":"../../static/images/TopSHPhone14.png"
+    },
+    {
+        "name":"Redmi K40",
+        "Price":1999,
+        "imgUrl":"../../static/images/TopSHPhone15.png"
+    },
+    {
+        "name":"Redmi Note 9 系列",
+        "Price":899,
+        "imgUrl":"../../static/images/TopSHPhone16.png"
+    }
+]

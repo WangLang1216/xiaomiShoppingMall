@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.central{
+    display: flex;
+    background-color: rgb(255,255,255);
+}
+.central>.left{
+    flex: 2;
+}
+.central>.right{
+    flex: 6;
+    margin-top: 2%;
+}
+.section{
+    height: 600px;
+    z-index: 998;
+}
+.section .theme{
+    background-color: rgb(255,255,255);
+    /* height: 600px; */
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    box-shadow: rgb(241, 238, 238) 0px 50px 150px 3px ;
+}
+.theme .denglutext{
+    font-size: 23px;
+    font-weight: 600;
+}
+.theme .zhucetext{
+    font-size: 23px;
+    color: rgb(187,187,187);
+}
+.theme a:link {    
+    color: #000000;   
+    text-decoration: none;   
+}   
+.theme a:visited {   
+    color: #000000;   
+    text-decoration: none;   
+}   
+.theme a:hover {    
+    text-decoration: none;   
+} 
+.theme .dengluxhx{
+    height: 2px;
+    width: 12%;
+    border-radius: 2px;
+    border-bottom: 4px rgb(255,92,0) solid;
+}
+.theme .zhucexhx{
+    height: 2px;
+    width: 12%;
+    display: none;
+    margin-left: 12.5%;
+    border-radius: 2px;
+    border-bottom: 4px rgb(255,92,0) solid;
+}
+.theme input{
+    height: 55px;
+    margin-top: 5%;
+    border: 0px;
+    background-color: rgb(249,249,249);
+}
+.theme .cuowu{
+    color: red;
+    margin-top: 3%;
+    display: none;
+    font-size: 10px;
+}
+.theme button{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    margin-top: 5%;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(255,203,169);
+}
+.theme .wjsj{
+    display: flex;
+    justify-content: space-between;
+}
+.theme .wjsj a{
+    flex: 1;
+    margin-top: 15%;
+    display: block;
+    font-size: 15px;
+    color: rgb(255,102,15);
+}
+.theme .qtfs{
+    text-align: center;
+    margin-top: 20%;
+}
+.theme .qtfs p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(183,183,183);
+}
+.theme .qitafangshidenglu{
+    margin-top: 2%;
+}
+.section .dibuwenzi{
+    text-align: center;
+    margin-top: 2%;
+}
+.section .dibuwenzi p{
+    font-size: 11px;
+    text-indent: 30px;
+    color: rgb(183,183,183);
+}
+.theme #zhuce{
+    display: none;
+}
+#zhuce .cuowu2,.cuowu3{
+    color: red;
+    margin-top: 3%;
+    display: none;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1263px) {
+    .central .left{
+        display: none;
+    }
+}

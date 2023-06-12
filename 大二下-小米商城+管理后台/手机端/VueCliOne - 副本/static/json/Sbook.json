@@ -1,0 +1,26 @@
+[
+    {
+        "name":"RedmiBook Pro 14",
+        "Price":4699,
+        "introduce":"2.5K超视网膜全面屏",
+        "imgUrl":"/static/images/book1.jpg"
+    },
+    {
+        "name":"RedmiBook Pro 15",
+        "Price":4999,
+        "introduce":"3.2K 超清视网膜全面屏",
+        "imgUrl":"/static/images/book2.jpg"
+    },
+    {
+        "name":"小米笔记本Pro 15",
+        "Price":6499,
+        "introduce":"大师屏 轻薄大作 | 芯怀猛虎 炸裂性能",
+        "imgUrl":"/static/images/book3.jpg"
+    },
+    {
+        "name":"小米笔记本Pro 14",
+        "Price":5299,
+        "introduce":"大师屏 轻薄大作 | 芯怀猛虎 炸裂性能",
+        "imgUrl":"/static/images/book4.jpg"
+    }
+]

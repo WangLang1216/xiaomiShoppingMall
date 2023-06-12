@@ -1,0 +1,378 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#productDetails{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 99;
+}
+.top img:nth-child(1){
+    width: 85%;
+}
+.top img:nth-child(2){
+    margin-left: 75%;
+}
+.Carousel{
+    width: 100%;
+    height: 412.87px;
+}
+.Carousel img{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+}
+.content .jiage{
+    width: 100%;
+    height: 40px;
+    padding-left: 5%;
+}
+.content .jiage span:nth-child(1){
+    font-size: 15px;
+    color: rgb(255,103,0);
+    line-height: 10px;
+}
+.content .jiage span:nth-child(2){
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgb(255,103,0);
+}
+.content .jiage span:nth-child(3){
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(180, 174, 174);
+}
+.content .gengduo{
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 1%;
+    padding-right: 5%;
+    background-color: rgb(240, 212, 206);
+    border-radius: 5px;
+    display: flex;
+}
+.content .gengduo .yuyue{
+    width: 35%;
+    height: 20px;
+    margin-top: 1.5%;
+    text-align: center;
+    border: 1px rgb(255,103,0) solid;
+    border-radius: 2px;
+    background-color: rgb(236, 227, 221);
+    color: rgb(255,103,0);
+}
+.content .gengduo .yuyue span{
+    line-height: 20px;
+}
+.content .gengduo h4{
+    font-size: 14px;
+    color: rgb(255,103,0);
+    margin-left: 50%;
+    font-weight: 600;
+    margin-top: 2.5%;
+}
+.content .mixin{
+    display: flex;
+    padding-top: 3.5%;
+    padding-left: 5%;
+}
+.content .mixin img{
+    width: 22%;
+}
+.content .mixin span{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.introduce{
+    width: 100%;
+    height: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+}
+.introduce ul{
+    list-style: none;
+}
+.introduce ul li{
+    margin-top: 1%;
+}
+.introduce ul li h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.introduce ul li span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.introduce ul li>div{
+    height: 20px;
+    width: 50%;
+    border-radius: 8px;
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(59, 57, 57);
+    background-color: rgb(218, 207, 207);
+}
+.mykf{
+    width: 100%;
+    height: 100px;
+}
+.dibu{
+    width: 100%;
+    height: 50px;
+    border-top: 1px rgb(219, 219, 219) solid;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+}
+.dibu .left{
+    flex: 2;
+    text-align: center;
+    display: flex;
+}
+.dibu .left img{
+    width: 50%;
+    margin-top: 20%;
+}
+.dibu .left>div:nth-child(2) img{
+    margin-top: 5%;
+}
+.dibu .left p{
+    font-size: 10px;
+
+}
+.dibu .left>div:nth-child(2) p{
+    margin-top: -11%;
+}
+.dibu .right{
+    flex: 3;
+    display: flex;
+}
+.dibu .right>div{
+    display: flex;
+    width: 85%;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 7%;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+.dibu .right>div span{
+    margin-left: 28%;
+    margin-top: 3%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.eject{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.eject .tupian{
+    display: flex;
+    width: 100%;
+}
+.eject .tupian .left{
+    flex: 1;
+}
+.eject .tupian .right{
+    flex: 3;
+}
+.eject .tupian .left img{
+    width: 95%;
+    display: none;
+    background-color: rgb(245,245,245);
+    border-radius: 5px;
+}
+.eject .tupian .left img:nth-child(1){
+    display: block;
+}
+.eject .tupian .right{
+    padding-left: 3%;
+}
+.eject .tupian .right div span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.eject .tupian .right div span:nth-child(1),.eject .tupian .right div span:nth-child(3),.eject .tupian .right div span:nth-child(5){
+    color: rgb(255,89,52);
+    font-size: 20px;
+    font-weight: 600;
+}
+.eject .tupian .right div span:nth-child(2),.eject .tupian .right div span:nth-child(4),.eject .tupian .right div span:nth-child(6){
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(180, 174, 174);
+}
+.eject .tupian .right div span:nth-child(3),.eject .tupian .right div span:nth-child(4),.eject .tupian .right div span:nth-child(5),.eject .tupian .right div span:nth-child(6),.eject .tupian .right div span:nth-child(10),.eject .tupian .right div span:nth-child(11),.eject .tupian .right div span:nth-child(13),.eject .tupian .right div span:nth-child(14){
+    display: none;
+}
+.eject .tupian .right div{
+    padding-top: 2%;
+}
+.banben p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+.banben .xuanz{
+    display: flex;
+    margin-top: 3%;
+}
+.banben .xuanz div{
+    width: 25%;
+    height: 25px;
+    margin-left: 5%;
+    background-color: rgb(245,245,245);
+    text-align: center;
+    border-radius: 15px;
+}
+.banben .xuanz div span{
+    line-height: 25px;
+}
+.banben .xuanz div:nth-child(1){
+    margin-left: 0%;
+}
+.fujia{
+    margin-left: 0%;
+    background-color: rgb(255,242,239);
+    color: rgb(255,117,10);
+    border: 1px rgb(255,117,10) solid;
+}
+.yanse p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.yanse .xuanz{
+    display: flex;
+    margin-top: 3%;
+}
+.yanse .xuanz div{
+    width: 18%;
+    height: 25px;
+    margin-left: 5%;
+    background-color: rgb(245,245,245);
+    text-align: center;
+    border-radius: 15px;
+}
+.yanse .xuanz div span{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.yanse .xuanz div:nth-child(1){
+    margin-left: 0%;
+}
+.taozhuang p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.taozhuang .xuanz{
+    display: flex;
+    margin-top: 3%;
+}
+.taozhuang .xuanz div{
+    width: 18%;
+    height: 25px;
+    margin-left: 5%;
+    background-color: rgb(245,245,245);
+    text-align: center;
+    border-radius: 15px;
+}
+.taozhuang .xuanz div:nth-child(2){
+    width: 47%;
+}
+.taozhuang .xuanz div span{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.taozhuang .xuanz div:nth-child(1){
+    margin-left: 0%;
+}
+.shuliang{
+    display: flex;
+}
+.shuliang p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 12%;
+}
+.number-box{
+    border: #e5e5e5 solid 1px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.number-box input[type='text']{
+    height: 30px;
+    border-top: none;
+    border-bottom: none;
+    border-left:#e5e5e5 solid 1px;
+    border-right:#e5e5e5 solid 1px;
+    margin: 0;
+    text-align: center;
+    width: 40px;
+    outline:none;
+    padding: 0 5px;
+    float: left;
+    line-height: 30px;
+}
+.number-box input[type='button']{
+    height: 30px;
+    width: 40px;
+    float: left;
+    border: none;
+    outline:none;
+    background-color: #f3f3f3;
+    line-height: 30px;
+    cursor: pointer;
+    padding: 0;
+}
+.number-box input[type='button']:hover{
+    background-color: #f9f9f9;
+}
+.number-box input[type='button']:active{
+    background-color: #f6f6f6;
+}
+.eject button{
+    width: 100%;
+    height: 35px;
+    border-radius: 18px;
+    background-color: rgb(255,117,10);
+    text-align: center;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15%;
+}

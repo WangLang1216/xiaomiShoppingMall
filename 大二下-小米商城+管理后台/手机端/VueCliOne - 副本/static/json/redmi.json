@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "Note 10 Pro",
+        "imgURL":"/static/images/redmi1.png"
+    },
+    {
+        "name" : "Note 10 Pro",
+        "imgURL":"/static/images/redmi2.png"
+    },
+    {
+        "name" : "Note 10 Pro",
+        "imgURL":"/static/images/redmi3.png"
+    },
+    {
+        "name" : "Note 9 4G",
+        "imgURL":"/static/images/redmi4.png"
+    },
+    {
+        "name" : "Note 8 Pro",
+        "imgURL":"/static/images/redmi5.png"
+    },
+    {
+        "name" : "Redmi Note 8Pro",
+        "imgURL":"/static/images/redmi6.gif"
+    },
+    {
+        "name" : "Redmi Note 8",
+        "imgURL":"/static/images/redmi7.gif"
+    }
+]

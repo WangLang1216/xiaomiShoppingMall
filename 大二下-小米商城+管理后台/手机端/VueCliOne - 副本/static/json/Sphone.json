@@ -1,0 +1,50 @@
+[
+    {
+        "name":"小米11 Pro",
+        "Price":4999,
+        "introduce":"1/1.12''GN2｜骁龙888",
+        "imgUrl":"/static/images/Sphone1.jpg"
+    },
+    {
+        "name":"MIX FOLD 小米折叠屏手机",
+        "Price":9999,
+        "introduce":"折叠大屏｜自研芯片",
+        "imgUrl":"/static/images/Sphone2.jpg"
+    },
+    {
+        "name":"Note 9 5G",
+        "Price":1299,
+        "introduce":"天玑 800U处理器，5000mAh电池",
+        "imgUrl":"/static/images/Sphone3.jpg"
+    },
+    {
+        "name":"小米10S",
+        "Price":3299,
+        "introduce":"骁龙870 | 对称式双扬立体声",
+        "imgUrl":"/static/images/Sphone4.jpg"
+    },
+    {
+        "name":"Note 9 Pro 5G",
+        "Price":1599,
+        "introduce":"一亿像素夜景相机，120Hz六档变速高刷屏",
+        "imgUrl":"/static/images/Sphone5.jpg"
+    },
+    {
+        "name":"小米11",
+        "Price":3999,
+        "introduce":"骁龙888 | 2K四曲面屏",
+        "imgUrl":"/static/images/Sphone6.jpg"
+    },
+    {
+        "name":"黑鲨4",
+        "Price":2499,
+        "introduce":"磁动力升降肩键",
+        "imgUrl":"/static/images/Sphone7.jpg"
+    },
+    {
+        "name":"Redmi  K40 Pro 系列",
+        "Price":2799,
+        "introduce":"骁龙888 / E4 旗舰直屏",
+        "imgUrl":"/static/images/Sphone8.jpg"
+    }
+]

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EesdSQLModelStoreContainer" CdmEntityContainer="EesdSQLEntities">
+    <EntitySetMapping Name="brand_info">
+      <EntityTypeMapping TypeName="EesdSQLModel.brand_info">
+        <MappingFragment StoreEntitySet="brand_info">
+          <ScalarProperty Name="brand_id" ColumnName="brand_id" />
+          <ScalarProperty Name="brand_name" ColumnName="brand_name" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="brand_web" ColumnName="brand_web" />
+          <ScalarProperty Name="brand_logo" ColumnName="brand_logo" />
+          <ScalarProperty Name="brand_desc" ColumnName="brand_desc" />
+          <ScalarProperty Name="brand_status" ColumnName="brand_status" />
+          <ScalarProperty Name="brand_order" ColumnName="brand_order" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer_addr">
+      <EntityTypeMapping TypeName="EesdSQLModel.customer_addr">
+        <MappingFragment StoreEntitySet="customer_addr">
+          <ScalarProperty Name="customer_addr_id" ColumnName="customer_addr_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+          <ScalarProperty Name="province" ColumnName="province" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="district" ColumnName="district" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="is_default" ColumnName="is_default" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer_inf">
+      <EntityTypeMapping TypeName="EesdSQLModel.customer_inf">
+        <MappingFragment StoreEntitySet="customer_inf">
+          <ScalarProperty Name="customer_inf_id" ColumnName="customer_inf_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+          <ScalarProperty Name="identity_card_type" ColumnName="identity_card_type" />
+          <ScalarProperty Name="identity_card_num" ColumnName="identity_card_num" />
+          <ScalarProperty Name="mobile_phone" ColumnName="mobile_phone" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="user_point" ColumnName="user_point" />
+          <ScalarProperty Name="register_time" ColumnName="register_time" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="customer_level" ColumnName="customer_level" />
+          <ScalarProperty Name="user_money" ColumnName="user_money" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+          <ScalarProperty Name="ReceivingAddress" ColumnName="ReceivingAddress" />
+          <ScalarProperty Name="HeadPortrait" ColumnName="HeadPortrait" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer_login">
+      <EntityTypeMapping TypeName="EesdSQLModel.customer_login">
+        <MappingFragment StoreEntitySet="customer_login">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="login_name" ColumnName="login_name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="user_stats" ColumnName="user_stats" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customerLevelInf">
+      <EntityTypeMapping TypeName="EesdSQLModel.customerLevelInf">
+        <MappingFragment StoreEntitySet="customerLevelInf">
+          <ScalarProperty Name="customer_level" ColumnName="customer_level" />
+          <ScalarProperty Name="level_name" ColumnName="level_name" />
+          <ScalarProperty Name="min_point" ColumnName="min_point" />
+          <ScalarProperty Name="max_point" ColumnName="max_point" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_cart">
+      <EntityTypeMapping TypeName="EesdSQLModel.order_cart">
+        <MappingFragment StoreEntitySet="order_cart">
+          <ScalarProperty Name="cart_id" ColumnName="cart_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_amount" ColumnName="product_amount" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="add_time" ColumnName="add_time" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_detail">
+      <EntityTypeMapping TypeName="EesdSQLModel.order_detail">
+        <MappingFragment StoreEntitySet="order_detail">
+          <ScalarProperty Name="order_detail_id" ColumnName="order_detail_id" />
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="product_cnt" ColumnName="product_cnt" />
+          <ScalarProperty Name="product_price" ColumnName="product_price" />
+          <ScalarProperty Name="average_cost" ColumnName="average_cost" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="w_id" ColumnName="w_id" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order_master">
+      <EntityTypeMapping TypeName="EesdSQLModel.order_master">
+        <MappingFragment StoreEntitySet="order_master">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="order_sn" ColumnName="order_sn" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="shipping_user" ColumnName="shipping_user" />
+          <ScalarProperty Name="province" ColumnName="province" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="district" ColumnName="district" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="payment_method" ColumnName="payment_method" />
+          <ScalarProperty Name="order_money" ColumnName="order_money" />
+          <ScalarProperty Name="district_money" ColumnName="district_money" />
+          <ScalarProperty Name="shipping_money" ColumnName="shipping_money" />
+          <ScalarProperty Name="payment_money" ColumnName="payment_money" />
+          <ScalarProperty Name="shipping_comp_name" ColumnName="shipping_comp_name" />
+          <ScalarProperty Name="shipping_sn" ColumnName="shipping_sn" />
+          <ScalarProperty Name="create_time" ColumnName="create_time" />
+          <ScalarProperty Name="shipping_time" ColumnName="shipping_time" />
+          <ScalarProperty Name="pay_time" ColumnName="pay_time" />
+          <ScalarProperty Name="receive_time" ColumnName="receive_time" />
+          <ScalarProperty Name="order_status" ColumnName="order_status" />
+          <ScalarProperty Name="order_point" ColumnName="order_point" />
+          <ScalarProperty Name="invoice_time" ColumnName="invoice_time" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product_category">
+      <EntityTypeMapping TypeName="EesdSQLModel.product_category">
+        <MappingFragment StoreEntitySet="product_category">
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+          <ScalarProperty Name="category_name" ColumnName="category_name" />
+          <ScalarProperty Name="category_code" ColumnName="category_code" />
+          <ScalarProperty Name="parent_id" ColumnName="parent_id" />
+          <ScalarProperty Name="category_level" ColumnName="category_level" />
+          <ScalarProperty Name="category_status" ColumnName="category_status" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product_comment">
+      <EntityTypeMapping TypeName="EesdSQLModel.product_comment">
+        <MappingFragment StoreEntitySet="product_comment">
+          <ScalarProperty Name="comment_id" ColumnName="comment_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="Ucontent" ColumnName="Ucontent" />
+          <ScalarProperty Name="audit_status" ColumnName="audit_status" />
+          <ScalarProperty Name="audit_time" ColumnName="audit_time" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="product_info">
+      <EntityTypeMapping TypeName="EesdSQLModel.product_info">
+        <MappingFragment StoreEntitySet="product_info">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_core" ColumnName="product_core" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="bar_code" ColumnName="bar_code" />
+          <ScalarProperty Name="brand_id" ColumnName="brand_id" />
+          <ScalarProperty Name="one_category_id" ColumnName="one_category_id" />
+          <ScalarProperty Name="two_category_id" ColumnName="two_category_id" />
+          <ScalarProperty Name="three_category_id" ColumnName="three_category_id" />
+          <ScalarProperty Name="supplier_id" ColumnName="supplier_id" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="average_cost" ColumnName="average_cost" />
+          <ScalarProperty Name="publish_status" ColumnName="publish_status" />
+          <ScalarProperty Name="audit_status" ColumnName="audit_status" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+          <ScalarProperty Name="color_type" ColumnName="color_type" />
+          <ScalarProperty Name="production_date" ColumnName="production_date" />
+          <ScalarProperty Name="shelf_life" ColumnName="shelf_life" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="indate" ColumnName="indate" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productpicinfo">
+      <EntityTypeMapping TypeName="EesdSQLModel.productpicinfo">
+        <MappingFragment StoreEntitySet="productpicinfo">
+          <ScalarProperty Name="product_pic_id" ColumnName="product_pic_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="pic_desc" ColumnName="pic_desc" />
+          <ScalarProperty Name="pic_url" ColumnName="pic_url" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shipping_info">
+      <EntityTypeMapping TypeName="EesdSQLModel.shipping_info">
+        <MappingFragment StoreEntitySet="shipping_info">
+          <ScalarProperty Name="imgUrl" ColumnName="imgUrl" />
+          <ScalarProperty Name="pricenew" ColumnName="pricenew" />
+          <ScalarProperty Name="ship_id" ColumnName="ship_id" />
+          <ScalarProperty Name="ship_name" ColumnName="ship_name" />
+          <ScalarProperty Name="ship_contact" ColumnName="ship_contact" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="supplier_info">
+      <EntityTypeMapping TypeName="EesdSQLModel.supplier_info">
+        <MappingFragment StoreEntitySet="supplier_info">
+          <ScalarProperty Name="supplier_id" ColumnName="supplier_id" />
+          <ScalarProperty Name="supplier_code" ColumnName="supplier_code" />
+          <ScalarProperty Name="supplier_name" ColumnName="supplier_name" />
+          <ScalarProperty Name="supplier_type" ColumnName="supplier_type" />
+          <ScalarProperty Name="link_man" ColumnName="link_man" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="bank_name" ColumnName="bank_name" />
+          <ScalarProperty Name="bank_account" ColumnName="bank_account" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="supplier_status" ColumnName="supplier_status" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouse_info">
+      <EntityTypeMapping TypeName="EesdSQLModel.warehouse_info">
+        <MappingFragment StoreEntitySet="warehouse_info">
+          <ScalarProperty Name="w_id" ColumnName="w_id" />
+          <ScalarProperty Name="warehouse_sn" ColumnName="warehouse_sn" />
+          <ScalarProperty Name="warehoust_name" ColumnName="warehoust_name" />
+          <ScalarProperty Name="warehouse_phone" ColumnName="warehouse_phone" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="province" ColumnName="province" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="distrct" ColumnName="distrct" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="warehouse_status" ColumnName="warehouse_status" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouse_product">
+      <EntityTypeMapping TypeName="EesdSQLModel.warehouse_product">
+        <MappingFragment StoreEntitySet="warehouse_product">
+          <ScalarProperty Name="wp_id" ColumnName="wp_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="w_id" ColumnName="w_id" />
+          <ScalarProperty Name="current_cnt" ColumnName="current_cnt" />
+          <ScalarProperty Name="lock_cnt" ColumnName="lock_cnt" />
+          <ScalarProperty Name="in_transit_cnt" ColumnName="in_transit_cnt" />
+          <ScalarProperty Name="average_cost" ColumnName="average_cost" />
+          <ScalarProperty Name="modified_time" ColumnName="modified_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

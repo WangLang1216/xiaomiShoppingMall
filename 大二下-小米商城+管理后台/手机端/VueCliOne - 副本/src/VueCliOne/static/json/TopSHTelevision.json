@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Redmi MAX 86″ 超大屏电视",
+        "Price":9999,
+        "imgUrl":"../../static/images/TopSHTelevision1.png"
+    },
+    {
+        "name":"小米电视大师 82英寸至尊纪念版",
+        "Price":49999,
+        "imgUrl":"../../static/images/TopSHTelevision2.png"
+    },
+    {
+        "name":"小米电视大师 82英寸",
+        "Price":11999,
+        "imgUrl":"../../static/images/TopSHTelevision3.png"
+    },
+    {
+        "name":"小米透明电视",
+        "Price":49999,
+        "imgUrl":"../../static/images/TopSHTelevision4.png"
+    },
+    {
+        "name":"小米电视 大师 65英寸OLED",
+        "Price":9999,
+        "imgUrl":"../../static//images/TopSHTelevision5.png"
+    },
+    {
+        "name":"Redmi MAX 98″",
+        "Price":19999,
+        "imgUrl":"../../static/images/TopSHTelevision6.png"
+    }
+]

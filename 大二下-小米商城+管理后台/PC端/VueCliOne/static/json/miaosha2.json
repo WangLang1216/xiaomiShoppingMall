@@ -1,0 +1,30 @@
+[
+    {
+        "name":"米家水离子吹风机 白色",
+        "Price":179,
+        "Price2":199,
+        "introduce":"快速吹干，深度补水",
+        "imgUrl":"../../static/images/miaosha5.png"
+    },
+    {
+        "name":"小米便携鼠标 深灰色",
+        "Price":89,
+        "Price2":99,
+        "introduce":"双模连接，两种使用",
+        "imgUrl":"../../static/images/miaosha6.png"
+    },
+    {
+        "name":"RedmiBook Pro 白色 15 I7/16G",
+        "Price":6099,
+        "Price2":6299,
+        "introduce":"3.2K 90HZ超清视网膜",
+        "imgUrl":"../../static/images/miaosha7.png"
+    },
+    {
+        "name":"纯麦家庭KTV混音器",
+        "Price":599,
+        "Price2":699,
+        "introduce":"蓝牙5.0，演唱级双麦",
+        "imgUrl":"../../static/images/miaosha8.png"
+    }
+]

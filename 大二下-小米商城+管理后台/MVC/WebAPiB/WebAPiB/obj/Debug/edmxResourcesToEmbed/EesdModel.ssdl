@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EesdSQLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="brand_info">
+    <Key>
+      <PropertyRef Name="brand_id" />
+    </Key>
+    <Property Name="brand_id" Type="int" Nullable="false" />
+    <Property Name="brand_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="telephone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="brand_web" Type="varchar" MaxLength="100" />
+    <Property Name="brand_logo" Type="varchar" MaxLength="100" />
+    <Property Name="brand_desc" Type="varchar" MaxLength="150" />
+    <Property Name="brand_status" Type="int" Nullable="false" />
+    <Property Name="brand_order" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customer_addr">
+    <Key>
+      <PropertyRef Name="customer_addr_id" />
+    </Key>
+    <Property Name="customer_addr_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="zip" Type="int" Nullable="false" />
+    <Property Name="province" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="city" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="district" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="is_default" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customer_inf">
+    <Key>
+      <PropertyRef Name="customer_inf_id" />
+    </Key>
+    <Property Name="customer_inf_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="customer_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="identity_card_type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="identity_card_num" Type="varchar" MaxLength="50" />
+    <Property Name="mobile_phone" Type="varchar" MaxLength="50" />
+    <Property Name="customer_email" Type="varchar" MaxLength="50" />
+    <Property Name="sex" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_point" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="register_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="birthday" Type="datetime" />
+    <Property Name="customer_level" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_money" Type="money" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ReceivingAddress" Type="varchar" MaxLength="50" />
+    <Property Name="HeadPortrait" Type="image" />
+  </EntityType>
+  <EntityType Name="customer_login">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login_name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="user_stats" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customerLevelInf">
+    <Key>
+      <PropertyRef Name="customer_level" />
+    </Key>
+    <Property Name="customer_level" Type="int" Nullable="false" />
+    <Property Name="level_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="min_point" Type="int" Nullable="false" />
+    <Property Name="max_point" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_cart">
+    <Key>
+      <PropertyRef Name="cart_id" />
+    </Key>
+    <Property Name="cart_id" Type="int" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="product_amount" Type="int" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="add_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_detail">
+    <Key>
+      <PropertyRef Name="order_detail_id" />
+    </Key>
+    <Property Name="order_detail_id" Type="int" Nullable="false" />
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="product_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product_cnt" Type="int" Nullable="false" />
+    <Property Name="product_price" Type="money" Nullable="false" />
+    <Property Name="average_cost" Type="money" Nullable="false" />
+    <Property Name="weight" Type="float" Nullable="false" />
+    <Property Name="w_id" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_master">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="order_sn" Type="int" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="shipping_user" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="province" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="city" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="district" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="payment_method" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="order_money" Type="money" Nullable="false" />
+    <Property Name="district_money" Type="money" Nullable="false" />
+    <Property Name="shipping_money" Type="money" Nullable="false" />
+    <Property Name="payment_money" Type="money" Nullable="false" />
+    <Property Name="shipping_comp_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="shipping_sn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="create_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="shipping_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="pay_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="receive_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="order_status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="order_point" Type="int" Nullable="false" />
+    <Property Name="invoice_time" Type="varchar" MaxLength="100" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product_category">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="int" Nullable="false" />
+    <Property Name="category_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="category_code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="parent_id" Type="int" Nullable="false" />
+    <Property Name="category_level" Type="int" Nullable="false" />
+    <Property Name="category_status" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product_comment">
+    <Key>
+      <PropertyRef Name="comment_id" />
+    </Key>
+    <Property Name="comment_id" Type="int" Nullable="false" />
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="customer_id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ucontent" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="audit_status" Type="int" Nullable="false" />
+    <Property Name="audit_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product_info">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="product_core" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="product_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="bar_code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="brand_id" Type="int" Nullable="false" />
+    <Property Name="one_category_id" Type="int" Nullable="false" />
+    <Property Name="two_category_id" Type="int" Nullable="false" />
+    <Property Name="three_category_id" Type="int" Nullable="false" />
+    <Property Name="supplier_id" Type="int" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="average_cost" Type="money" Nullable="false" />
+    <Property Name="publish_status" Type="int" Nullable="false" />
+    <Property Name="audit_status" Type="int" Nullable="false" />
+    <Property Name="weight" Type="float" />
+    <Property Name="length" Type="float" />
+    <Property Name="height" Type="float" />
+    <Property Name="width" Type="float" />
+    <Property Name="color_type" Type="varchar" MaxLength="50" />
+    <Property Name="production_date" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="shelf_life" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descript" Type="text" Nullable="false" />
+    <Property Name="indate" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="productpicinfo">
+    <Key>
+      <PropertyRef Name="product_pic_id" />
+    </Key>
+    <Property Name="product_pic_id" Type="int" Nullable="false" />
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="pic_desc" Type="varchar" MaxLength="50" />
+    <Property Name="pic_url" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="shipping_info">
+    <Key>
+      <PropertyRef Name="ship_id" />
+    </Key>
+    <Property Name="ship_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ship_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ship_contact" Type="varchar" MaxLength="50" />
+    <Property Name="telephone" Type="varchar" MaxLength="50" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="pricenew" Type="money" />
+    <Property Name="imgUrl" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="supplier_info">
+    <Key>
+      <PropertyRef Name="supplier_id" />
+    </Key>
+    <Property Name="supplier_id" Type="int" Nullable="false" />
+    <Property Name="supplier_code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="supplier_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="supplier_type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="link_man" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="bank_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="bank_account" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="supplier_status" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="warehouse_info">
+    <Key>
+      <PropertyRef Name="w_id" />
+    </Key>
+    <Property Name="w_id" Type="int" Nullable="false" />
+    <Property Name="warehouse_sn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="warehoust_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="warehouse_phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contact" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="province" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="city" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="distrct" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="warehouse_status" Type="int" Nullable="false" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="warehouse_product">
+    <Key>
+      <PropertyRef Name="wp_id" />
+    </Key>
+    <Property Name="wp_id" Type="int" Nullable="false" />
+    <Property Name="product_id" Type="int" Nullable="false" />
+    <Property Name="w_id" Type="int" Nullable="false" />
+    <Property Name="current_cnt" Type="int" Nullable="false" />
+    <Property Name="lock_cnt" Type="int" Nullable="false" />
+    <Property Name="in_transit_cnt" Type="int" />
+    <Property Name="average_cost" Type="money" />
+    <Property Name="modified_time" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EesdSQLModelStoreContainer">
+    <EntitySet Name="brand_info" EntityType="Self.brand_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customer_addr" EntityType="Self.customer_addr" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customer_inf" EntityType="Self.customer_inf" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customer_login" EntityType="Self.customer_login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customerLevelInf" EntityType="Self.customerLevelInf" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order_cart" EntityType="Self.order_cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order_detail" EntityType="Self.order_detail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order_master" EntityType="Self.order_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product_category" EntityType="Self.product_category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product_comment" EntityType="Self.product_comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product_info" EntityType="Self.product_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="productpicinfo" EntityType="Self.productpicinfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="shipping_info" EntityType="Self.shipping_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="supplier_info" EntityType="Self.supplier_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="warehouse_info" EntityType="Self.warehouse_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="warehouse_product" EntityType="Self.warehouse_product" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

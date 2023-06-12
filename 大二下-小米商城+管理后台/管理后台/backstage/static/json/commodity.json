@@ -1,0 +1,52 @@
+[
+    {
+        "id":10000,
+        "imgUrl":"/static/images/TopSHPhone1.png",
+        "name":"小米MIX FOLD",
+        "Price":9999,
+        "type":"手机",
+        "stock":34976,
+        "salesVolume":270200,
+        "toExamine":"已通过"
+    },
+    {
+        "id":10001,
+        "imgUrl":"/static/images/TopSHPhone2.png",
+        "name":"小米11 Ultra",
+        "Price":5999,
+        "type":"手机",
+        "stock":34627,
+        "salesVolume":479372,
+        "toExamine":"已通过"
+    },
+    {
+        "id":10002,
+        "imgUrl":"/static/images/TopSHPhone3.png",
+        "name":"小米11 Pro",
+        "Price":4499,
+        "type":"手机",
+        "stock":64353,
+        "salesVolume":134434,
+        "toExamine":"已通过"
+    },
+    {
+        "id":10003,
+        "imgUrl":"/static/images/TopSHPhone4.png",
+        "name":"小米11 青春版",
+        "Price":2299,
+        "type":"手机",
+        "stock":42114,
+        "salesVolume":235132,
+        "toExamine":"已通过"
+    },
+    {
+        "id":10004,
+        "imgUrl":"/static/images/TopSHPhone5.png",
+        "name":"小米10S",
+        "Price":2999,
+        "type":"手机",
+        "stock":63453,
+        "salesVolume":23632,
+        "toExamine":"已通过"
+    }
+]

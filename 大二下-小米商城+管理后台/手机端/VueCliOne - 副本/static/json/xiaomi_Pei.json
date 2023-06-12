@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "无线充",
+        "imgURL":"/static/images/mi_pei1.png"
+    },
+    {
+        "name" : "充电器",
+        "imgURL":"/static/images/mi_pei2.png"
+    },
+    {
+        "name" : "充电器",
+        "imgURL":"/static/images/mi_pei3.png"
+    },
+    {
+        "name" : "小米充电宝",
+        "imgURL":"/static/images/mi_pei4.png"
+    },
+    {
+        "name" : "小米手机保护壳",
+        "imgURL":"/static/images/mi_pei5.png"
+    },
+    {
+        "name" : "小米手机贴膜",
+        "imgURL":"/static/images/mi_pei6.png"
+    }
+]

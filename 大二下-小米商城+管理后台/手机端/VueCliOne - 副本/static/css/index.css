@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.fixedTop{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+.top{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    background-color: rgb(242,242,242);
+}
+.top .left{
+    flex: 1;
+    padding-top: 2.5%;
+}
+.top .left img{
+    width: 80%;
+    height: 48%;
+    margin-left: 47%;
+}
+.top .middle{
+    flex: 10;
+}
+.top .middle input{
+    width: 270px;
+    height: 35px;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    border: 3px rgb(238,238,238) solid;
+}
+.top .middle span{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: rgb(178,178,178);
+}
+.top .right{
+    flex: 1;
+}
+.top .right img{
+    width: 70%;
+    height: 48%;
+    margin-top: 40%;
+}
+
+.Navigation{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    background-color: rgb(242,242,242);
+    box-shadow: rgb(238, 234, 234) 0px 4px 10px 0.1px;
+}
+.Navigation div{
+    flex: 1;
+    text-align: center;
+}
+.Navigation div span{
+    font-size: 13px;
+    color: rgb(158,158,158);
+}
+.Navigation div:nth-child(1) span{
+    font-size: 13px;
+    color: rgb(237,91,0);
+}
+.Navigation div:nth-child(1){
+    border-bottom: 2px rgb(237,91,0) solid;
+}
+
+.Carousel{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 188px;
+}
+.Carousel img{
+    width: 100%;
+}
+
+.activity{
+    position: absolute;
+    top: 257px;
+    width: 100%;
+    height: 158px;
+    background-color: white;
+}
+.activity .top{
+    display: flex;
+}
+.activity .top div{
+    flex: 1;
+}
+.activity .bottom{
+    display: flex;
+    margin-top: 9%;
+}
+.activity .bottom div{
+    flex: 1;
+}
+.activity img{
+    width: 100%;
+}
+
+.poster{
+    position: absolute;
+    top: 415px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(242,242,242);
+    padding-top: 2%;
+}
+.poster .left{
+    flex: 1;
+}
+.poster .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.poster .right div:nth-child(2){
+    margin-top: 2px;
+}
+.poster img{
+    width: 100%;
+}
+
+.poster2{
+    position: absolute;
+    top: 670px;
+    width: 100%;
+}
+.poster2 img{
+    width: 100%;
+}
+
+.phone{
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    background-color: white;
+}
+.phone .neirong{
+    height: 100px;
+}
+.phone .neirong>div>div{
+    margin-top: 4%;
+    text-align: center;
+}
+.phone .neirong img{
+    width: 90%;
+}
+.phone .neirong h3{
+    font-size: 15px;
+    margin-top: 5%;
+}
+.phone .neirong h4{
+    font-size: 14px;
+    margin-top: 3%;
+    color: rgb(234,98,91);
+}
+.phone .neirong h5{
+    font-size: 10px;
+    margin-top: 3%;
+    color: rgb(117,117,117);
+}
+.phone .neirong button{
+    height: 30px;
+    width: 50%;
+    margin-top: 3%;
+    border-radius: 2px;
+    background-color: rgb(234,98,91);
+}
+.phone .neirong button span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.phone .neirong h3,h4,h5{
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.phone .bottom{
+    width: 100%;
+    margin-top: 235%;
+    height: 50px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: white;
+    /* border-top: 1px rgb(221, 220, 220) solid; */
+}
+.phone .bottom p{
+    line-height: 50px;
+    color: rgb(117,117,117);
+    font-weight: 600;
+}
+
+.notebook{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 1950px;
+    border-top: 8px rgb(245,245,245) solid;
+    background-color: white;
+}
+.notebook>img{
+    width: 100%;
+}
+.notebook .neirong{
+    height: 100px;
+    margin-top: -2%;
+}
+.notebook .neirong>div>div{
+    margin-top: 4%;
+    text-align: center;
+}
+.notebook .neirong img{
+    width: 100%;
+}
+.notebook .neirong h3{
+    font-size: 15px;
+    margin-top: 5%;
+}
+.notebook .neirong h4{
+    font-size: 14px;
+    margin-top: 3%;
+    color: rgb(234,98,91);
+}
+.notebook .neirong h5{
+    font-size: 10px;
+    margin-top: 3%;
+    color: rgb(117,117,117);
+}
+.notebook .neirong button{
+    height: 30px;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 2px;
+    background-color: rgb(234,98,91);
+}
+.notebook .neirong button span{
+    font-size: 13px;
+    font-weight: 400;
+}
+.notebook .neirong h3,h5{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.notebook .bottom{
+    width: 100%;
+    margin-top: 107%;
+    height: 50px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: white;
+    /* border-top: 1px rgb(221, 220, 220) solid; */
+}
+.notebook .bottom p{
+    line-height: 50px;
+    color: rgb(117,117,117);
+    font-weight: 600;
+}
+
+.poster3{
+    position: absolute;
+    padding-top: 2%;
+    border-top: 8px rgb(245,245,245) solid;
+    top: 2750px;
+    width: 100%;
+}
+.poster3 img{
+    width: 100%;
+}
+.poster3 .hai1{
+    display: flex;
+    margin-top: 1%;
+}
+.poster3 .hai1 div{
+    flex: 1;
+}
+.poster3 .hai1 div:nth-child(2){
+    margin-left: 1%;
+}
+.poster3>img:nth-child(5){
+    margin-top: 2%;
+}
+.poster3 .wenzi{
+    height: 50px;
+    text-align: center;
+}
+.poster3 .wenzi p{
+    line-height: 50px;
+    font-size: 17px;
+    color: rgb(172, 167, 167);
+    font-weight: 500;
+}
